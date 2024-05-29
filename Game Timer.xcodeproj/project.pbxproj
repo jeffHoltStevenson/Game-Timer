@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29478CE52C06A00000E0B6B0 /* PieSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29478CE42C06A00000E0B6B0 /* PieSlice.swift */; };
+		29478CF12C06B17400E0B6B0 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29478CE82C06B17300E0B6B0 /* alarm.wav */; };
 		2954D39F2BEDDCFE008B81DA /* Game_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954D39E2BEDDCFE008B81DA /* Game_TimerApp.swift */; };
 		2954D3A12BEDDCFE008B81DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954D3A02BEDDCFE008B81DA /* ContentView.swift */; };
 		2954D3A32BEDDCFF008B81DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2954D3A22BEDDCFF008B81DA /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29478CE42C06A00000E0B6B0 /* PieSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSlice.swift; sourceTree = "<group>"; };
+		29478CE82C06B17300E0B6B0 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
 		2954D39B2BEDDCFE008B81DA /* Game Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2954D39E2BEDDCFE008B81DA /* Game_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_TimerApp.swift; sourceTree = "<group>"; };
 		2954D3A02BEDDCFE008B81DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,7 +100,9 @@
 			children = (
 				2954D39E2BEDDCFE008B81DA /* Game_TimerApp.swift */,
 				2954D3A02BEDDCFE008B81DA /* ContentView.swift */,
+				29478CE42C06A00000E0B6B0 /* PieSlice.swift */,
 				2954D3A22BEDDCFF008B81DA /* Assets.xcassets */,
+				29478CE82C06B17300E0B6B0 /* alarm.wav */,
 				2954D3A42BEDDCFF008B81DA /* Preview Content */,
 			);
 			path = "Game Timer";
@@ -232,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2954D3A62BEDDCFF008B81DA /* Preview Assets.xcassets in Resources */,
+				29478CF12C06B17400E0B6B0 /* alarm.wav in Resources */,
 				2954D3A32BEDDCFF008B81DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29478CE52C06A00000E0B6B0 /* PieSlice.swift in Sources */,
 				2954D3A12BEDDCFE008B81DA /* ContentView.swift in Sources */,
 				2954D39F2BEDDCFE008B81DA /* Game_TimerApp.swift in Sources */,
 			);
@@ -422,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Game Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = 38K7YKN2KF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Game Timer/Preview Content\"";
+				DEVELOPMENT_TEAM = 38K7YKN2KF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
