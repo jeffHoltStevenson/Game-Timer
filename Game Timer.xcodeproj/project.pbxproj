@@ -16,6 +16,9 @@
 		2954D3B02BEDDCFF008B81DA /* Game_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954D3AF2BEDDCFF008B81DA /* Game_TimerTests.swift */; };
 		2954D3BA2BEDDCFF008B81DA /* Game_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954D3B92BEDDCFF008B81DA /* Game_TimerUITests.swift */; };
 		2954D3BC2BEDDCFF008B81DA /* Game_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2954D3BB2BEDDCFF008B81DA /* Game_TimerUITestsLaunchTests.swift */; };
+		29C6CCBB2C2251BF007B1061 /* TimerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C6CCBA2C2251BF007B1061 /* TimerSettingsView.swift */; };
+		29C6CCBD2C22548F007B1061 /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C6CCBC2C22548F007B1061 /* gong.mp3 */; };
+		29C6CCBF2C2254BB007B1061 /* tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 29C6CCBE2C2254BB007B1061 /* tick.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		2954D3B52BEDDCFF008B81DA /* Game TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2954D3B92BEDDCFF008B81DA /* Game_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_TimerUITests.swift; sourceTree = "<group>"; };
 		2954D3BB2BEDDCFF008B81DA /* Game_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29C6CCBA2C2251BF007B1061 /* TimerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingsView.swift; sourceTree = "<group>"; };
+		29C6CCBC2C22548F007B1061 /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong.mp3; sourceTree = "<group>"; };
+		29C6CCBE2C2254BB007B1061 /* tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tick.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +104,15 @@
 		2954D39D2BEDDCFE008B81DA /* Game Timer */ = {
 			isa = PBXGroup;
 			children = (
+				29C6CCBE2C2254BB007B1061 /* tick.mp3 */,
 				2954D39E2BEDDCFE008B81DA /* Game_TimerApp.swift */,
 				2954D3A02BEDDCFE008B81DA /* ContentView.swift */,
 				29478CE42C06A00000E0B6B0 /* PieSlice.swift */,
 				2954D3A22BEDDCFF008B81DA /* Assets.xcassets */,
+				29C6CCBC2C22548F007B1061 /* gong.mp3 */,
 				29478CE82C06B17300E0B6B0 /* alarm.wav */,
 				2954D3A42BEDDCFF008B81DA /* Preview Content */,
+				29C6CCBA2C2251BF007B1061 /* TimerSettingsView.swift */,
 			);
 			path = "Game Timer";
 			sourceTree = "<group>";
@@ -238,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2954D3A62BEDDCFF008B81DA /* Preview Assets.xcassets in Resources */,
+				29C6CCBF2C2254BB007B1061 /* tick.mp3 in Resources */,
+				29C6CCBD2C22548F007B1061 /* gong.mp3 in Resources */,
 				29478CF12C06B17400E0B6B0 /* alarm.wav in Resources */,
 				2954D3A32BEDDCFF008B81DA /* Assets.xcassets in Resources */,
 			);
@@ -267,6 +278,7 @@
 				29478CE52C06A00000E0B6B0 /* PieSlice.swift in Sources */,
 				2954D3A12BEDDCFE008B81DA /* ContentView.swift in Sources */,
 				2954D39F2BEDDCFE008B81DA /* Game_TimerApp.swift in Sources */,
+				29C6CCBB2C2251BF007B1061 /* TimerSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
