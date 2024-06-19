@@ -17,15 +17,15 @@ struct TimerPieChartView: View {
   @State private var audioPlayer: AVAudioPlayer?
   @State private var tickPlayer: AVAudioPlayer?
   @State private var showSettings = false
-    
-    var sliceColor: Color {
-            return timeRemaining < 5 ? .red : .blue
-        }
+
+  var sliceColor: Color {
+    return timeRemaining < 5 ? .red : .blue
+  }
 
   var body: some View {
     VStack {
       PieSlice(startAngle: .degrees(-90), endAngle: endAngle)
-            .fill(sliceColor)
+        .fill(sliceColor)
         .frame(width: 400, height: 400)
         .onAppear {
           resetTimer()
@@ -67,13 +67,13 @@ struct TimerPieChartView: View {
   func startTimer() {
     resetTimer()
     isActive = true
-      let timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+    let timer = Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
       if self.timeRemaining > 0 {
-          self.timeRemaining -= 1.0
-          withAnimation(.linear(duration: 1.0)) {
+        self.timeRemaining -= 1.0
+        withAnimation(.linear(duration: 1.0)) {
           self.endAngle = .degrees(Double((totalTime - timeRemaining) / totalTime) * 360.0 - 90)
         }
-          self.playTickSound()
+        self.playTickSound()
       } else {
         timer.invalidate()
         self.isActive = false
